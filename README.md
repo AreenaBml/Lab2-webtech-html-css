@@ -1,1 +1,1 @@
-# Lab2-webtech-html-css
+# Webtech-html-css
