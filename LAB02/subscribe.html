@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      @import url("CSS/main.css");
+      @import url("CSS/subscribe.css");
+    </style>
+    <title>Subscribe for monthly Newsletter</title>
+  </head>
+  <body>
+    <header>Gas Planets: Subscribe</header>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="menu">Home</a></li>
+        <li><a href="multimedia.html" class="menu">Multimedia</a></li>
+        <li><a href="subscribe.html" class="menu">Subscribe</a></li>
+        <li><a href="#" class="menu">About Us</a></li>
+      </ul>
+    </nav>
+    <main>
+      <article>
+        <header>Subscribe for monthly Newsletter</header>
+        <section>
+          <fieldset>
+            <legend>Please Fill Your Information</legend>
+            <form>
+              <div class="grid-container">
+                <label for="firstName">First Name:</label>
+                <input
+                  class="field"
+                  type="text"
+                  id="firstName"
+                  name="firstName"
+                  required
+                /><br />
+                <label for="lastName">Last Name:</label>
+                <input
+                  class="field"
+                  type="text"
+                  id="lastName"
+                  name="lastName"
+                  required
+                /><br />
+
+                <label for="birthdate">Birthdate:</label>
+                <input
+                  class="field"
+                  type="date"
+                  id="birthdate"
+                  name="birthdate"
+                  required
+                /><br />
+
+                <input type="radio" id="male" name="gender" value="male" />
+                <label for="male">Male</label><br />
+                <input type="radio" id="female" name="gender" value="female" />
+                <label for="female">Female</label><br />
+
+                <label for="favoriteColor">Favorite Color:</label>
+                <input
+                  type="color"
+                  id="favoriteColor"
+                  name="favoriteColor"
+                  value="#000000"
+                /><br />
+
+                <label for="favoritePlanet">Favorite Planet:</label>
+                <select class="field" id="favoritePlanet" name="favoritePlanet">
+                  <option value="Jupiter">Jupiter</option>
+                  <option value="Saturn">Saturn</option>
+                  <option value="Uranus">Uranus</option>
+                  <option value="Neptune">Neptune</option>
+                </select>
+                <br />
+                <input class="button" type="reset" value="Clear" />
+                <input class="button" type="submit" value="Submit" />
+              </div>
+            </form>
+          </fieldset>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
