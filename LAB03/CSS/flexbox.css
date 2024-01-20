@@ -1,0 +1,54 @@
+/*Define the nav element to be flexbox*/
+nav {
+    display: flex;
+    background-color: yellowgreen;
+    margin: 5px;
+    padding: 10px 5px;
+}
+div {
+    font-size: 1.5em;
+    line-height: 30px;
+    margin: 0px 10px;
+}
+/*move the 3rd menu to the left*/
+div :nth-child(3){
+    margin-left: auto;
+}
+section{
+    font-size: 2em;
+    background-color: burlywood;
+    height: 200px;
+    margin: 5px 5px;
+    padding: 10px;
+    width: 47%;
+}
+aside{
+    display: flex;
+    font-size: 1em;
+    margin: 5px 1px;
+    padding: 10px;
+    background-color: cadetblue;
+    text-align: left;
+    width: 30%; 
+    margin-left: auto; 
+}
+footer{
+    font-size: 1em;
+    line-height: 50px;
+    margin: 5px 5px;
+    padding: 10px;
+    background-color: yellowgreen;
+    text-align: center;
+}
+div:nth-child(2) {
+    margin-right: auto;
+}
+main {
+    display: flex;
+    width: 100%;
+}
+article {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%; 
+}
